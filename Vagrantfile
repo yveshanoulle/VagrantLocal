@@ -1,6 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+# load "vagrantfile_ssh" if Vagrant::Util::Platform.windows?
 Vagrant::Config.run do |config|
 
 
